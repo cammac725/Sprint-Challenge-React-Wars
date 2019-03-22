@@ -1,10 +1,13 @@
 .char-card {
   background:rgb(245, 245, 222);
-  width: 35%;
+  width: 40%;
   margin: 30px;
   padding-bottom: 20px;
-	border-radius: 50% 50% 0 50%;
+  /* border-radius: 50% 50% 0 50%; */
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  
 }
+
 
 .char-card h3 {
   color:#080808;
@@ -24,5 +27,4 @@ a {
 
 a:hover {
   color: rgb(84, 5, 150);
- 
 }
