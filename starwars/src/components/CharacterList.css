@@ -1,0 +1,18 @@
+.char-list {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.char-list h2 {
+  color: #080808;
+  text-shadow: 1px 1px 5px #fff;
+}

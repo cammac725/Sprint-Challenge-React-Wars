@@ -1,0 +1,28 @@
+.char-card {
+  background:rgb(245, 245, 222);
+  width: 35%;
+  margin: 30px;
+  padding-bottom: 20px;
+	border-radius: 50% 50% 0 50%;
+}
+
+.char-card h3 {
+  color:#080808;
+  text-shadow: 1px 1px 5px #fff;
+}
+
+.char-card h3,p {
+  margin-left: 20px;
+}
+
+a {
+  margin: 0 0 20px 20px;
+  color: rgb(136, 22, 22);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: rgb(84, 5, 150);
+ 
+}
